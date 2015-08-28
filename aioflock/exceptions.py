@@ -1,0 +1,2 @@
+class LockFilenameTimeout(Exception):
+    pass
