@@ -32,7 +32,7 @@ setup(
     description='File support for asyncio.',
     long_description=readme,
     classifiers=[
-        "Development Status :: 1 - Alpha",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: Apache Software License",
         "Programming Language :: Python :: 3.3",
