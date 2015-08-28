@@ -2,6 +2,11 @@ aioflock: file lock support for asyncio (based on fcntl.flock)
 ==================================
 
 
+.. image:: https://travis-ci.org/kolko/aioflock.svg?branch=master
+    :target: https://travis-ci.org/kolko/aioflock
+
+
+
 Example:
 
 .. code-block:: python
