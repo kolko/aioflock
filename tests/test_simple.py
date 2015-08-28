@@ -21,3 +21,12 @@ def test_with():
 
     with (yield from LockFilename('/tmp/test_lock')):
         pass
+
+@pytest.mark.asyncio
+def test_with_exception():
+    with pytest.raises(Exception):
+        with (yield from LockFilename('/tmp/test_lock')):
+            raise Exception()
+
+    with (yield from LockFilename('/tmp/test_lock')):
+        pass
