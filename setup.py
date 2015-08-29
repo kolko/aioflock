@@ -29,7 +29,7 @@ setup(
     license='Apache 2.0',
     author='Krat Nikolay',
     author_email='@gmail.com',
-    description='File support for asyncio.',
+    description='File lock support for asyncio.',
     long_description=readme,
     classifiers=[
         "Development Status :: 4 - Beta",
